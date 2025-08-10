@@ -81,7 +81,7 @@ def predict_and_display(model, image: Image.Image):
 
 # ------------------ Application layout ------------------ #
 def main():
-    st.set_page_config(page_title="Waste Wise App", layout="centered")
+    st.set_page_config(page_title="Recycle Mate App", layout="centered")
 
     st.sidebar.header("How to use")
     st.sidebar.write(
