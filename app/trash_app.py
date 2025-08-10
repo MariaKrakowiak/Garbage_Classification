@@ -6,7 +6,8 @@ from PIL import Image
 # ------------------ Configuration ------------------ #
 CLASS_NAMES = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 MODEL_INPUT_SHAPE = (128, 128, 3)
-MODEL_PATH = "../model/best_model.h5"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.abspath(os.path.join(BASE_DIR, '..', 'model', 'best_model.h5'))
 
 
 # ------------------ Model loading ------------------ #
