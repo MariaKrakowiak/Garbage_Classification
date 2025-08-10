@@ -92,7 +92,7 @@ def main():
         """
     )
 
-    st.markdown("<h1 style='text-align: center;'>Waste Classification Application</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Recycle Mate Application</h1>", unsafe_allow_html=True)
 
     st.markdown("""
         <div style="background-color:#f0f8ff; padding:20px; border-radius:10px; margin-bottom:20px;">
