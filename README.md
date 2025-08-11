@@ -13,7 +13,7 @@ This project focuses on building an image classification system that identifies 
 # Dataset
 Dataset used: [Garbage classification](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification/data)
 
-## Installation & Local Run Instructions
+## Installation & Local Run Instructions for project
 1. Clone the repository
 
    ```bash
@@ -33,3 +33,36 @@ Dataset used: [Garbage classification](https://www.kaggle.com/datasets/asdasdasa
    - Please the downloaded kaggle.json file in the root directory of the project
 
 4. The dataset will be downloaded automatically once the notebook is run on your local and kaggle.json is properly added.
+
+## Installation & Local Run Instructions for application
+
+To run the application locally:
+
+1. Go to the GitHub repository and download the ZIP of the project.
+
+2. Unzip the folder to your preferred location.
+
+3. Open a terminal or command prompt.
+
+4. Navigate to the folder where the project was extracted (app folder):
+
+   ```bash
+   cd path_to_folder
+   
+5. Create a virtual environment (optional but recommended):
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   
+6. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+7. Launch the Streamlit app:
+
+   ```bash
+   streamlit trash_app.py
+   
+The app will open in your default web browser at http://localhost:8501.
