@@ -9,6 +9,7 @@ This project focuses on building an image classification system that identifies 
 - Visualization tools (label distribution plots, model architecture summary, prediction on sample images)
 - Data augmentation (rescaling and image preprocessing supported)
 - Support for external images (predicts on custom images outside training set)
+- User-friendly interface via Streamlit [Recycle-mate-app](https://recycle-mate.streamlit.app/)
 
 # Dataset
 Dataset used: [Garbage classification](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification/data)
