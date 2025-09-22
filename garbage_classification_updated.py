@@ -994,7 +994,7 @@ df
 
 - Depthwise separable convolutions enable rich hierarchical feature extraction without inflating the model size.
 
-- Although non-trainable parameters are large (~2.26M), the trainable portion is small (~165k), allowing fast and efficient fine-tuning.
+- Although non-trainable parameters are large (approximately 2.26M), the trainable portion is small (approximately 165k), allowing fast and efficient fine-tuning.
 
 - Top performer across most classes, particularly cardboard, paper, and glass; performance on trash and some plastic classes could still improve with targeted strategies.
 """
